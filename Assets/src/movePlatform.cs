@@ -13,6 +13,8 @@ public class movePlatform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.position = new Vector3(0, -4.25f, 0); //Set position to start point
+        
         _rigidBody = gameObject.GetComponent<Rigidbody2D>(); //assign rigidBody on start
     }
 
