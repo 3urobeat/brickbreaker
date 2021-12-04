@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63d6c431fa33e6ff191665255cd2f428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
 --- !u!212 &1466033052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657db6ac92ca174fab9f699e7f0fe383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: {x: 10, y: 10}
+  speed: 250
 --- !u!50 &2040409123
 Rigidbody2D:
   serializedVersion: 4
@@ -865,7 +865,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1d69f26ea9d9047e899f29dea4f1cdf3, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
