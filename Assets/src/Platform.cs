@@ -1,14 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class platform : MonoBehaviour
+public class Platform : MonoBehaviour
 {
     public float speed;
     
     private Rigidbody2D _rigidBody;
     private Vector2 _direction;
-    
     
     // Start is called before the first frame update
     void Start()
