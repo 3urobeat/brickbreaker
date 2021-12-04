@@ -27,6 +27,7 @@
 .vs/
 
 .idea/
+out/
 
 # Gradle cache directory
 .gradle/
