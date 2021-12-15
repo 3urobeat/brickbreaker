@@ -32,4 +32,12 @@ public class Ball : MonoBehaviour
     {
         velocity = _rigidbody.velocity.magnitude;
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Brick")
+        {
+            Destroy(col.gameObject); //Destroy brick on hit
+        }
+    }
 }
