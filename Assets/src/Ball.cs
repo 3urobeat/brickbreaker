@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(0, -2.5f, 0); //Set position to start point
+        transform.position = new Vector3(0, -4f, 0); //Set position to start point
 
         Vector2 direction = new Vector2(Random.Range(-1f, 1f), -1f); //get a random number between -1 and 1 to randomize trajectory on start a bit
 
