@@ -27,7 +27,7 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x + Input.GetAxis("Horizontal") * speed, -_field.x + transform.localScale.x / 2, _field.x - transform.localScale.x / 2), transform.position.y); //set velocity of rigidBody
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x + Input.GetAxis("Horizontal") * speed * Time.deltaTime, -_field.x + transform.localScale.x / 2, _field.x - transform.localScale.x / 2), transform.position.y); //set velocity of rigidBody
     }
 
     //Handle trajectory change on ball collision (I didn't know how to implement it myself - Credit: https://www.youtube.com/watch?v=RYG8UExRkhA)
