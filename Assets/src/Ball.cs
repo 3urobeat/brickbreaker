@@ -52,7 +52,7 @@ public class Ball : MonoBehaviour
             scoreCounter.GetComponent<Text>().text = "Score: " + hits;
 
             //Show win screen if player hit all bricks
-            if (hits >= _brickGen.rows * _brickGen.cols)
+            if (hits >= _brickGen.fieldTiles.x * _brickGen.fieldTiles.y)
             {
                 resultPanel.SetActive(true);
                 resultPanel.GetComponentInChildren<Text>().text = "Win!";
